@@ -12,9 +12,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <body>
     <center><h2>Hiling</h2></center>
     <hr/>
-    <p th:text="${SAVE.name}"></p>
+    <l th:text="${name}"></l>
     <br/><br/>
-    <p th:text="${SAVE.lokasi}"></p>
-    <p align="left"><img alt="" th:src="@{'getimage/'+${SAVE.gambar}}" width="500" height="400"></p>
+    <l th:text="${lokasi}"></l>
+    <br/><br/>
+    <l align="left"> <img alt="" th:src="@{'getimage/'+${gambar}}" width="500" height="400"></l>
     </body>
 </html>
